@@ -1,15 +1,30 @@
 :root {
-    --backbright: rgb(15, 242, 7);
     --backdark: black;
-    --brighttxt: rgb(15, 242, 7);
+    --bright: rgb(15, 242, 7);
     --lighttxt: white;
 }
 
-.navbar {
-    background-color: var(--backdark);
+/* Navbar */
+#top-nav {
+    background-color: var(--bright);
 }
 
-.name {
-    color: var(--brighttxt);
+.nav-item {
+    color: white;
+}
 
+
+/* Skills section */
+section.skills {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+section.skills .skills-item {
+    max-width: 18rem;
+}
+
+section.skills .skills-item img {
+    max-width: 10rem;
+    box-shadow: 3px 5px 5px 3px black;
 }
