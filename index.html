@@ -6,129 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S Rainforth Bootstap Portfolio</title>
 
+    <!--Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!--Customized CSS-->
     <link rel="stylesheet" href="./css/style.css" />
+
 </head>
 
 <body>
 
+
     <!--Bootstrap Nav-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-        <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <div class="container-fluid" id="top-nav">
+            <div class="navbar-brand">Stuart Rainforth</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li> -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#my-skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a> -->
-                    <!-- <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul> -->
-                    <!-- </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li> -->
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
 
+
     <!--Bootstrap Jumbotron Hero Section-->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <header class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Stuart Rainforth</h1>
             <h2 class="display-7 fw-bold">Aspiring Front-End Web Developer</h2>
-            <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ipsum tempore.
-                Expedita quis explicabo omnis nihil sit commodi officia ipsam necessitatibus officiis asperiores? Fugit
-                nemo qui consectetur similique, beatae dolor ratione ex aut labore ducimus consequuntur incidunt enim
-                minus ea quisquam atque ab. Excepturi ex eos nesciunt quasi aperiam magni eveniet ut, eum commodi, cum
-                quam? Vel veritatis, et repellendus eligendi officiis sint numquam enim maiores voluptatum provident
-                repellat! Exercitationem accusantium nam eligendi inventore dicta iste ratione dolor, perspiciatis ad
-                totam mollitia suscipit quaerat minus aperiam in repudiandae voluptatibus temporibus, laborum assumenda
-                molestiae corporis, sed numquam et nisi? Officia, possimus!
+            <img class="profile" src="images/portrait.png" alt="profile-photo">
+            <p class="col-md-8 fs-4">I'm an aspiring front-end web developer loving learning new technical skills, and a
+                new way of looking at
+                learning.
+                I have a background in publishing and print, providing a wealth of experience and transferable soft
+                skills.
+            </p>
             </p>
             <!-- <button class="btn btn-primary btn-lg" type="button" data-bs-toggle=”modal
                 data-bs-target=”#exampleModal”>Find Out More</button> -->
         </div>
-    </div>
+    </header>
+
 
     <!--Skills Section-->
-    <div class="container-fluid">
+
+    <section class="skills text-center container-fluid" id="my-skills">
+        <h2 class="mb-3">Skills</h2>
         <div class="row">
-            <h3>header3 here skills</h3>
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+            <h4 class="mb-3">Skills learnt so far in Bootcamp</h4>
+            <div class="col-lg-3">
+                <div class="skills-item mx-auto mb-3 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="images/git-logo.png" height=150px width=150px
+                        alt="Git logo">
+                    <h5>Git</h5>
                 </div>
             </div>
-
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+            <div class="col-lg-3">
+                <div class="skills-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="images/html-logo.png" height=150px width=150px
+                        alt="HTML logo">
+                    <h5>HTML5</h5>
                 </div>
             </div>
+            <div class="col-lg-3">
+                <div class="skills-item mx-auto mb-5 mb-lg-0">
+                    <img class="img rounded-circle mb-3" src="images/css-logo.png" height=150px width=150px
+                        alt="CSS logo">
+                    <h5>CSS3</h5>
 
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="skills-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="images/bootstrap-logo.png" height=150px width=150px
+                        alt="Bootstrap logo">
+                    <h5>Bootstrap5</h5>
+
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
     <!--Work Section-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="work">
         <div class="row">
             <h3>header3 here work</h3>
             <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
@@ -172,10 +152,11 @@
         </div>
     </div>
 
-    <!--About/ Contact Section-->
-    <div class="container-fluid">
+
+    <!--About Section-->
+    <div class="container-fluid" id="about">
         <div class="row">
-            <h3>header3 here contact</h3>
+            <h3>A little bit more about myself</h3>
             <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
                 <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -217,8 +198,9 @@
         </div>
     </div>
 
+
     <!--Footer Section-->
-    <div class="container-fluid">
+    <footer class="container-fluid" id="contact">
         <div class="row">
             <h3>header3 here footer</h3>
             <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
@@ -260,12 +242,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
+
+    <!-- <ul>
+        <li><a href="mailto: s_rainforth@icloud.com" class="contactlink">E-Mail</a></li>
+        <li><a href="https://github.com/Meisterstu" class="contactlink">GitHGub</a></li>
+        <li><a href="https://www.linkedin.com/in/stuart-rainforth/" class="contactlink">LinkedIn</a></li>
+      </ul> -->
 
 
-
-
-
+    <!--Bootstrap JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
