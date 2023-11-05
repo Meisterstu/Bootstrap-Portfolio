@@ -6,32 +6,11 @@
 
 /* Navbar */
 #top-nav {
-    background-color: skyblue;
-    z-index: 10;
+    background-color: var(--bright);
 }
 
-/* .navbar-toggler {
-    background-color: white;
-} */
-
-/* .navbar-brand {
+.nav-item {
     color: white;
-} */
-
-/* .nav-item {
-    color: white !important;
-} */
-
-
-/* Hero */
-.masthead {
-    background-image: url(../images/sky.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -48,19 +27,4 @@ section.skills .skills-item {
 section.skills .skills-item img {
     max-width: 10rem;
     box-shadow: 3px 5px 5px 3px black;
-}
-
-.cardContainer {
-    display: height 400px width 600px;
-}
-
-.card-text {
-    display: height 400px width 600px;
-}
-
-/* Work Section */
-
-.btn-primary {
-    color: aquamarine;
-    background-color: black;
 }
