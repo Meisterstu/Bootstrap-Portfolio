@@ -17,39 +17,41 @@
 
 <body>
 
+    <header>
+        <!--Bootstrap Nav-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-    <!--Bootstrap Nav-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-
-        <div class="container-fluid" id="top-nav">
-            <div class="navbar-brand">Stuart Rainforth</div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="container-fluid top-nav">
+                <h1 class="navbar-brand white">Stuart Rainforth</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#my-skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
 
 
     <!--Bootstrap Jumbotron Hero Section-->
-    <header class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <section class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Stuart Rainforth</h1>
             <h2 class="display-7 fw-bold">Aspiring Front-End Web Developer</h2>
@@ -60,143 +62,216 @@
                 I have a background in publishing and print, providing a wealth of experience and transferable soft
                 skills.
             </p>
-            </p>
+
             <!-- <button class="btn btn-primary btn-lg" type="button" data-bs-toggle=”modal
                 data-bs-target=”#exampleModal”>Find Out More</button> -->
         </div>
-    </header>
-
-
-    <!--Skills Section-->
-
-    <section class="skills text-center container-fluid" id="my-skills">
-        <h2 class="mb-3">Skills</h2>
-        <div class="row">
-            <h4 class="mb-3">Skills learnt so far in Bootcamp</h4>
-            <div class="col-lg-3">
-                <div class="skills-item mx-auto mb-3 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="images/git-logo.png" height=150px width=150px
-                        alt="Git logo">
-                    <h5>Git</h5>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="skills-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="images/html-logo.png" height=150px width=150px
-                        alt="HTML logo">
-                    <h5>HTML5</h5>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="skills-item mx-auto mb-5 mb-lg-0">
-                    <img class="img rounded-circle mb-3" src="images/css-logo.png" height=150px width=150px
-                        alt="CSS logo">
-                    <h5>CSS3</h5>
-
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="skills-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="images/bootstrap-logo.png" height=150px width=150px
-                        alt="Bootstrap logo">
-                    <h5>Bootstrap5</h5>
-
-                </div>
-            </div>
-        </div>
     </section>
 
+    <main>
+        <!--Skills Section-->
+        <section class="skills text-center container-fluid" id="my-skills">
+            <h2 class="mb-3">Skills</h2>
+            <div class="row">
+                <h4 class="mb-3">Skills learnt so far in Bootcamp</h4>
+                <div class="col-lg-3">
+                    <div class="skills-item mx-auto mb-3 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="images/git-logo.png" height=150px width=150px
+                            alt="Git logo">
+                        <h5>Git</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="skills-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="images/html-logo.png" height=150px width=150px
+                            alt="HTML logo">
+                        <h5>HTML5</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="skills-item mx-auto mb-5 mb-lg-0">
+                        <img class="img rounded-circle mb-3" src="images/css-logo.png" height=150px width=150px
+                            alt="CSS logo">
+                        <h5>CSS3</h5>
 
-    <!--Work Section-->
-    <div class="container-fluid" id="work">
-        <div class="row">
-            <h3>header3 here work</h3>
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="skills-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="images/bootstrap-logo.png" height=150px
+                            width=150px alt="Bootstrap logo">
+                        <h5>Bootstrap5</h5>
+
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <!--Work Section-->
+        <section class="container-fluid" id="work">
+
+            <div class="container-fluid" id="work">
+                <h2>Work and Projects Portfolio</h2>
+
+                <div class="row mb-5">
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <img src="./images/horiseon-screenshot.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <div class="card-text">
+                                <h5 class="card-title">Project: Horiseon Marketing</h5>
+                                <p class="card-text">Client required the landing page code to be refracted in order to
+                                    improve
+                                    semantic styling and search function. I refracted and improved the HTML and CSS code
+                                </p>
+                                <p>Skills used: Git, HTML, CSS</p>
+                                <a href="https://meisterstu.github.io/Horiseon-Marketing/" class="btn btn-primary">Visit
+                                    Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <img src="./images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <div class="card-text">
+                                <h5 class="card-title">Project: Pre-Work Study Guide</h5>
+                                <p class="card-text">Study guide produced during the pre-work module to the Bootcamp,
+                                    produced
+                                    using HTML and CSS, with a small dash of javascript.</p>
+                                <p>Skills used: Git, HTML, CSS, Javascript</p>
+                                <a href="https://meisterstu.github.io/prework-study-guide/"
+                                    class="btn btn-primary">Visit
+                                    Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <img src="./images/mdn-screenshot.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <div class="card-text">
+                                <h5 class="card-title">Placeholder Resource: MDN</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's
+                                    content.</p>
+                                <a href="https://developer.mozilla.org/en-US/docs/Learn" class="btn btn-primary">Visit
+                                    Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <img src="./images/css-tricks-screenshot.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <div class="card-text">
+                                <h5 class="card-title">Placeholder Resource: CSS Tricks</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's
+                                    content.</p>
+                                <a href="https://css-tricks.com/" class="btn btn-primary">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <img src="./images/color-codes-screenshot.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="cardContainer col-lg-6  col-md-6  col-sml-12">
+                        <div class="card">
+                            <div class="card-text">
+                                <h5 class="card-title">Placeholder: HTML Color Codes</h5>
+                                <p class="card-text">A useful site which you cna use to ge tthe color codes required for
+                                    HTML.
+                                </p>
+                                <a href="https://htmlcolorcodes.com/" class="btn btn-primary">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!--About Section-->
+        <section class="container-fluid" id="about">
+            <div class="row">
+                <h3>A little bit more about myself</h3>
+                <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
 
-    <!--About Section-->
-    <div class="container-fluid" id="about">
-        <div class="row">
-            <h3>A little bit more about myself</h3>
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cardContainer col-lg-2  col-md-4  col-sml-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!--Footer Section-->
@@ -208,7 +283,8 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
                             the card's
                             content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -221,7 +297,8 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
                             the card's
                             content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -234,7 +311,8 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
                             the card's
                             content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -258,3 +336,78 @@
 </body>
 
 </html>
+
+
+
+<!--Work Section-->
+
+
+
+
+<!-- <section class="container-fluid row d-flex align-items-center" id="work">
+        <h3 class="col-3">header3 here work</h3>
+
+        <div class="cardContainer row col-9 d-flex justify-content-center">
+            <div class="card  card1 mx-1 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card dsdstitle</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-5 m-1 ">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-5 m-1">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-5 m-1">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-5 m-1">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+     -->
