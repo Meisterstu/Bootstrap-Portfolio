@@ -4,6 +4,10 @@
     --lighttxt: white;
 }
 
+a {
+    color: white
+}
+
 
 /* Navbar */
 .navbar {
@@ -55,6 +59,11 @@ section.skills .skills-item img {
 }
 
 /* Work Section */
+
+.work {
+    background-color: azure;
+}
+
 .cardContainer .card-text {
     display: height 400px width 600px;
 }
@@ -71,52 +80,24 @@ section.skills .skills-item img {
 
 
 
-/* Contact Section */
+/* About Me Section */
 
 
 
 
 
-/* Navbar */
+/* Contact section */
 
+.contact {
+    background-color: green;
 
-/* .navbar-toggler {
-    background-color: white;
-} */
-
-/* .navbar-brand {
-    color: white;
-} */
-
-/* .nav-item {
-    color: white !important;
-} */
-
-
-/* Hero */
-
-
-
-/* Skills section */
-/* section.skills {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
 }
 
-section.skills .skills-item {
-    max-width: 18rem;
+.contactlink {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-section.skills .skills-item img {
-    max-width: 10rem;
-    box-shadow: 3px 5px 5px 3px black;
+.contactlink:hover {
+    box-shadow: inset 100px 0 0 0 white;
+    color: green;
 }
-
-
-
-/* Work Section */
-/* 
-.btn-primary {
-    color: aquamarine;
-    background-color: black;
-} */
